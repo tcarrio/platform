@@ -306,7 +306,7 @@ The above can be further re-written to use the `select()` utility function from 
 
 ```ts
 import { select } from '@ngrx/store';
-import { map, filter } from 'rxjs/operators';
+import { filter } from 'rxjs/operators';
 
 store
   .pipe(
